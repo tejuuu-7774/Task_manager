@@ -1,4 +1,5 @@
 # Task Manager Application
+---
 A simple and clean full-stack Task Management web application that allows users to create, view, update, and delete tasks with persistent storage.
 ---
 
@@ -63,17 +64,13 @@ task_manager/
 2. Install dependencies:
 - npm install
 
-
 3. Start the server:
 - npm run dev
-
 
 4. The backend will run at:
 - http://localhost:3000 
 
-
 ### Frontend Setup
-
 1. Open the frontend folder in VS Code
 
 2. Use Live Server to open index.html
@@ -81,19 +78,11 @@ task_manager/
 3. Frontend will communicate with backend via REST APIs.
 
 API Endpoints
-Method	Endpoint	Description
-GET	/api/tasks	Get all tasks
-POST	/api/tasks	Create a new task
-PUT	/api/tasks/:id	Update a task
-DELETE	/api/tasks/:id	Delete a task
+Method	 Endpoint	     Description
+GET	     /api/tasks	     Get all tasks
 
-# ----
-Evaluation Focus
+POST	 /api/tasks	     Create a new task
 
-Clean code structure
+PUT	     /api/tasks/:id	 Update a task
 
-Proper REST API design
-
-Database integration
-
-UI clarity and usability
+DELETE	 /api/tasks/:id	 Delete a task
