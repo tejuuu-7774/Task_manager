@@ -58,7 +58,6 @@ task_manager/
 ### Backend Setup
 
 1. Navigate to backend folder:
-```bash
 - cd backend
 
 2. Install dependencies:
