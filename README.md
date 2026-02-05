@@ -29,6 +29,7 @@ A simple and clean full-stack Task Management web application that allows users 
 - MongoDB (Local)
 
 ## Project Structure
+
 task_manager/
 ├── backend/
 │ ├── models/
@@ -44,7 +45,6 @@ task_manager/
 │ └── script.js
 │
 └── README.md
-
 
 ---
 
@@ -77,8 +77,11 @@ task_manager/
 
 3. Frontend will communicate with backend via REST APIs.
 
+----
 API Endpoints
+
 Method	 Endpoint	     Description
+
 GET	     /api/tasks	     Get all tasks
 
 POST	 /api/tasks	     Create a new task
